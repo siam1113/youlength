@@ -18,7 +18,7 @@ app.get("/getLength", async (req, res) => {
   res.send(output);
 });
 
-app.get("/", async (req, res) => {
+app.get("/welcome", async (req, res) => {
   res.send("Welcome to app");
 });
 
