@@ -12,10 +12,12 @@ app.use(function (req, res, next) {
 });
 
 app.get("/getLength", async (req, res) => {
-  console.log(req.query.url);
   const output = await getLength(req.query.url);
-  console.log(output);
   res.send(output);
+});
+
+app.get("/", async (req, res) => {
+  res.send("Welcome to app");
 });
 
 app.listen(port, () => {
