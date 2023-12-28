@@ -1,0 +1,16 @@
+{
+  "name": "youlength",
+  "version": "1.0.0",
+  "description": "a tool to get the length of a youtube playlist",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "serve:backend": "node src/server/app.js"
+  },
+  "author": "Siam Hasan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "playwright": "^1.40.1"
+  }
+}
