@@ -2,7 +2,7 @@
   "name": "youlength",
   "version": "1.0.0",
   "description": "a tool to get the length of a youtube playlist",
-  "main": "index.js",
+  "main": "src/server/app.js",
   "type": "module",
   "scripts": {
     "serve:backend": "node src/server/app.js",

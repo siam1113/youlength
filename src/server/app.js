@@ -11,6 +11,8 @@ app.use(function (req, res, next) {
   next();
 });
 
+app.use(express.static("public"));
+
 app.get("/getLength", async (req, res) => {
   const output = await getLength(req.query.url);
   res.send(output);
