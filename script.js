@@ -4,7 +4,7 @@ const linkInput = document.getElementById("link");
 
 getLengthBtn.addEventListener("click", () => {
   const linkInputValue = linkInput.value.trim();
-  const URL = `http://localhost:3300/getLength?url=${linkInputValue}`;
+  const URL = `https://yourlength.onrender.com/getLength?url=${linkInputValue}`;
   if (!linkInputValue) {
     lengthDiv.innerHTML = `No link provided`;
   } else {
