@@ -2,10 +2,10 @@
   "name": "youlength",
   "version": "1.0.0",
   "description": "a tool to get the length of a youtube playlist",
-  "main": "src/server/app.js",
+  "main": "src/server/index.js",
   "type": "module",
   "scripts": {
-    "serve:backend": "node src/server/app.js",
+    "serve:backend": "node src/server/index.js",
     "vercel-build": "echo Started Building" 
   },
   "author": "Siam Hasan",
