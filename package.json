@@ -5,7 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "serve:backend": "node src/server/app.js"
+    "serve:backend": "node src/server/app.js",
+    "vercel-build": "echo Started Building" 
   },
   "author": "Siam Hasan",
   "license": "ISC",
